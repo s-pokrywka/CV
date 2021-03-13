@@ -1,0 +1,71 @@
+body {
+    background: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    margin-left: 15em;
+}
+span {
+    font-weight: 1000;
+}
+
+a:link {
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+
+.about_me{
+    background: #364670;
+    color: white;
+    width: 400rem;
+    
+    padding-left: 1rem;
+
+}
+
+
+.basic_data>img{
+    width: 42%;
+    height: 20%;
+    float: left;
+    margin: 0 0.5rem;  
+}
+
+
+.skill>ul {
+    list-style-image: url(./img/done_icon.svg);
+}
+
+.programming_lang>ul{
+list-style-type: "-";
+}
+
+
+
+
+
+
+.experience_edu{
+    background: white;
+    width: 350rem;
+    margin-left: 0.7rem;
+    padding-left: 0.5rem;
+
+}
+.education{
+    line-height: 0.75;
+}
+.education>h3{
+    margin: 0.75rem 0;
+}

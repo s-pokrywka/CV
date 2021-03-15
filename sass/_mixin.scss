@@ -1,0 +1,18 @@
+
+@keyframes anim_logo {
+    0% {left:-10em;}
+    100% {left:0em ;}
+  }
+@mixin logo_lang($top,$time_delay) {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    left: -10em;
+    top:$top;
+    animation-name: anim_logo;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+    animation-delay:$time_delay;
+
+    
+}

@@ -1,0 +1,124 @@
+$backg_color_full:#000;
+$link_color:#FFF;
+body{
+    background:$backg_color_full;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    margin: 0 7rem ;
+
+
+    
+}
+
+$time_delay:0s;
+  
+.html_icon{
+    &>img{
+        @import '_mixin.scss';
+        @include logo_lang(0,$time_delay);
+    }
+}
+
+.css_icon{
+    &>img{
+        
+        @import '_mixin.scss';
+        @include logo_lang(10em,$time_delay+1s);
+    }
+}
+.js_icon{
+    &>img{
+        
+        @import '_mixin.scss';
+        @include logo_lang(20em,$time_delay+2s);
+    }
+}
+.sql_icon{
+    &>img{
+        
+        @import '_mixin.scss';
+        @include logo_lang(30em,$time_delay+3s);
+    }
+}
+.python_icon{
+    &>img{
+        
+        @import '_mixin.scss';
+        @include logo_lang(40em,$time_delay+5s);
+    }
+}
+
+span {
+    font-weight: 1000;
+}
+
+a{
+    &:hover{
+        color: $link_color;
+    }
+    &:link{
+        color: $link_color;
+    }
+    &:active{
+        color: $link_color;
+    }
+    &:visited{
+        color: $link_color;
+    }
+}
+
+.about_me{
+    background: #364670;
+    color: white;
+    width: 2300rem;
+    padding-left: 1rem;
+    position: relative;
+    left: 1rem;
+
+}
+.basic_data{
+    &>img{
+        width: 42%;
+        height: 20%;
+        float: left;
+        margin: 0 0.5rem; 
+        transform: width 6s;
+        
+        
+    }
+    &>img:hover{
+        width: 300px;
+    }
+}
+.skill {
+    &>ul{
+    list-style-image: url(../img/done_icon.svg)
+    }
+}
+.programming_lang{
+    &>ul{
+        list-style-type: "-";
+    }
+}
+.experience_edu{
+    background: white;
+    width: 1700rem;
+    margin-left: 0.7rem;
+    padding-left: 0.5rem;
+    position: relative;
+    left: 1rem;
+
+}
+.education{
+    line-height: 0.75;
+}
+.education{
+    &>h3{
+    margin: 0.75rem 0;
+    }
+}
+
+

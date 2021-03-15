@@ -39,7 +39,13 @@ a:visited{
     width: 42%;
     height: 20%;
     float: left;
-    margin: 0 0.5rem;  
+    margin: 0 0.5rem; 
+    transform: 1s border-radius ;
+
+}
+.basic_data>img:hover{
+    border-radius: 10%;
+
 }
 
 
